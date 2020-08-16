@@ -1,0 +1,28 @@
+Customer     Restaurants  Visited    
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Restaurants(
+  "Orange King" TEXT,
+  "1411 NE 42nd St Seattle WA 98105" TEXT,
+  "Homey Korean fusion" TEXT,
+  "1" TEXT
+);
+INSERT INTO Restaurants VALUES('Xi’an Noodles','5259 University Way NE Seattle WA 98105','Spicy Chinese hand-pulled noodles','2');
+INSERT INTO Restaurants VALUES('Udon','4515 University Way NE Seattle WA 98105','Customizable noodle soup','1');
+INSERT INTO Restaurants VALUES('Bugis','4241 University Way NE Seattle WA 98105','Modern Korean fusion','2');
+INSERT INTO Restaurants VALUES('Korean Tofu House','4142 Brooklyn Ave NE Seattle WA 98105','Korean comfort food','1');
+INSERT INTO Restaurants VALUES('Aladdin’s Gyro-cery','4143 University Way NE Seattle WA 98105','Mediterranean meat wraps','1');
+INSERT INTO Restaurants VALUES('Portage Bay Cafe','4130 Roosevelt Way NE Seattle WA 98105','Upscale brunch','3');
+INSERT INTO Restaurants VALUES('Shultzy’s Sausage','4114 University Way NE Seattle WA 98105','Bar for late-night snacks','2');
+INSERT INTO Restaurants VALUES('Byrek and Baguette','4209 University Way NE Seattle WA 98105','French pastries and drinks','2');
+INSERT INTO Restaurants VALUES('Orange King','1411 NE 42nd St Seattle WA 98105','Homey Korean fusion','1');
+INSERT INTO Restaurants VALUES('Xi’an Noodles','5259 University Way NE Seattle WA 98105','Spicy Chinese hand-pulled noodles','2');
+INSERT INTO Restaurants VALUES('Udon','4515 University Way NE Seattle WA 98105','Customizable noodle soup','1');
+INSERT INTO Restaurants VALUES('Bugis','4241 University Way NE Seattle WA 98105','Modern Korean fusion','2');
+INSERT INTO Restaurants VALUES('Korean Tofu House','4142 Brooklyn Ave NE Seattle WA 98105','Korean comfort food','1');
+INSERT INTO Restaurants VALUES('Aladdin’s Gyro-cery','4143 University Way NE Seattle WA 98105','Mediterranean meat wraps','1');
+INSERT INTO Restaurants VALUES('Portage Bay Cafe','4130 Roosevelt Way NE Seattle WA 98105','Upscale brunch','3');
+INSERT INTO Restaurants VALUES('Shultzy’s Sausage','4114 University Way NE Seattle WA 98105','Bar for late-night snacks','2');
+INSERT INTO Restaurants VALUES('Byrek and Baguette','4209 University Way NE Seattle WA 98105','French pastries and drinks','2');
+COMMIT;
+Customer     Restaurants  Visited    
