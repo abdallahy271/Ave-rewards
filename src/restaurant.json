@@ -1,19 +1,54 @@
 {
   "features": [
     {
-      "coordinates": [47.657302, -122.313059],
-      "name": "",
-      "details": ""
+      "coordinates": [47.65817, -122.31352],
+      "name": "Sizzle N’ Crunch",
+      "details": "Vietnamese rice bowls and sandwiches      $"
     },
-    { "coordinates": [47.65817, -122.31352], "name": "", "details": "" },
-    { "coordinates": [47.65821, -122.31276], "name": "", "details": "" },
-    { "coordinates": [47.65867, -122.31355], "name": "", "details": "" },
-    { "coordinates": [47.65735, -122.3129], "name": "", "details": "" },
-    { "coordinates": [47.65764, -122.31774], "name": "", "details": "" },
-    { "coordinates": [47.6575, -122.31331], "name": "", "details": "" },
-    { "coordinates": [47.65813, -122.31408], "name": "", "details": "" },
-    { "coordinates": [47.6596, -122.31344], "name": "", "details": "" },
-    { "coordinates": [47.66183, -122.31353], "name": "", "details": "" },
-    { "coordinates": [47.66816, -122.31324], "name": "", "details": "" }
+    {
+      "coordinates": [47.65821, -122.31276],
+      "name": "Orange King",
+      "details": "Homey Korean fusion     $"
+    },
+    {
+      "coordinates": [47.65867, -122.31355],
+      "name": "Xi’an Noodles",
+      "details": "Spicy Chinese hand-pulled noodles     $$"
+    },
+    {
+      "coordinates": [47.65735, -122.3129],
+      "name": "Udon",
+      "details": "Customizable noodle soup      $"
+    },
+    {
+      "coordinates": [47.65764, -122.31774],
+      "name": "Bugis",
+      "details": "Modern Korean fusion    $$"
+    },
+    {
+      "coordinates": [47.6575, -122.31331],
+      "name": "Korean Tofu House",
+      "details": "Korean comfort food    $"
+    },
+    {
+      "coordinates": [47.65813, -122.31408],
+      "name": "Aladdin’s Gyro-cery",
+      "details": "Mediterranean meat wraps      $"
+    },
+    {
+      "coordinates": [47.6596, -122.31344],
+      "name": "Portage Bay Cafe",
+      "details": "Upscale brunch      $$$"
+    },
+    {
+      "coordinates": [47.66183, -122.31353],
+      "name": "Shultzy’s Sausage",
+      "details": "Bar for late-night snacks     $$"
+    },
+    {
+      "coordinates": [47.66816, -122.31324],
+      "name": "Byrek and Baguette",
+      "details": "French pastries and drinks     $$"
+    }
   ]
 }

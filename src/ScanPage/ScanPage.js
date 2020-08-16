@@ -1,4 +1,5 @@
 import React from "react";
+import "./ScanPage.css";
 function Scan() {
   return (
     <body>

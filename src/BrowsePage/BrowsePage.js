@@ -1,4 +1,6 @@
 import React from "react";
+import "./BrowsePage.css";
+
 function Browse() {
   return (
     <body>

@@ -1,4 +1,6 @@
 import React from "react";
+import "./ContactUs.css";
+
 function Contact() {
   return (
     <body>
