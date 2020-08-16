@@ -1,0 +1,35 @@
+body {
+  background: #e5e5e5;
+}
+
+header {
+  position: absolute;
+  width: 254px;
+  height: 58px;
+  left: 34px;
+  top: 88px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #b49bbd;
+}
+
+p {
+  position: absolute;
+  width: 333px;
+  height: 430px;
+  left: 39px;
+  top: 158px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #b49bbd;
+}

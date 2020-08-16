@@ -1,0 +1,47 @@
+header {
+  position: absolute;
+  width: 254px;
+  height: 58px;
+  left: 34px;
+  top: 88px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #b49bbd;
+}
+input {
+  position: absolute;
+  width: 340px;
+  height: 46px;
+  left: 34px;
+  top: 156px;
+
+  background: rgba(180, 155, 189, 0.5);
+  border-radius: 10px;
+}
+
+textarea {
+  position: absolute;
+  width: 340px;
+  height: 166px;
+  left: 34px;
+  top: 308px;
+
+  background: rgba(180, 155, 189, 0.5);
+  border-radius: 10px;
+}
+
+button{
+
+    width: 122px;
+    height: 56px;
+    left: 32px;
+    top: 516px;
+    
+    background: #B49BBD;
+    border-radius: 20px;
+}

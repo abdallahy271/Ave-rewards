@@ -13,6 +13,7 @@ function Map() {
   const [selectedRest, setSelectedRest] = useState(null);
   return (
     <GoogleMap
+      style={{ width: "200px", height: "100px" }}
       defaultZoom={16}
       defaultCenter={{ lat: 47.66129, lng: -122.31313 }}
     >
@@ -43,13 +44,17 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export default function App() {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
-      <WrappedMap
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAgYdjt-cd3GQmi8PDhQ_hq_S3ek9UHRbI`}
-        loadingElement={<div style={{ height: "100%" }} />}
-        containerElement={<div style={{ height: "100%" }} />}
-        mapElement={<div style={{ height: "100%" }} />}
-      />
-    </div>
+    <body>
+      <h2>Welcome Isaac! </h2>
+      <h4>Find a place near me</h4>
+      <div style={{ width: "50vw", height: "50vh" }}>
+        <WrappedMap
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAgYdjt-cd3GQmi8PDhQ_hq_S3ek9UHRbI`}
+          loadingElement={<div style={{ height: "70%" }} />}
+          containerElement={<div style={{ height: "70%" }} />}
+          mapElement={<div style={{ height: "70%" }} />}
+        />
+      </div>
+    </body>
   );
 }

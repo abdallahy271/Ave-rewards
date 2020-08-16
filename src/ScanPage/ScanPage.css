@@ -1,0 +1,50 @@
+header {
+  position: absolute;
+  width: 254px;
+  height: 58px;
+  left: 34px;
+  top: 88px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #b49bbd;
+}
+p {
+  position: absolute;
+  width: 339px;
+  height: 392px;
+  left: 35px;
+  top: 156px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #b49bbd;
+}
+
+button {
+  position: absolute;
+  width: 261px;
+  height: 30px;
+  left: 68px;
+  top: 449px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
+body {
+  background: #e5e5e5;
+}
